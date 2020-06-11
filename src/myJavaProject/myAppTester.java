@@ -18,7 +18,7 @@ public class myAppTester {
 	  System.out.println();
 
 	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
-
+	  myTestMethod(3,2);
 	}
 	
 	//This is a method to reverse the number by recursion
@@ -34,14 +34,22 @@ public class myAppTester {
 	   }
 
 
-	   /* 
-	       add your test method in this space then remove the block comment symbols
-	       public static void myTestMethod(...){
+	   
+	      
+	       public static int myTestMethod(int x,int y){
+	    	   int z;
+	    	   if (x>y) {
+	    		  z=x-y;
+	    	   }
+	    	   else {
+	    		   z=x+y;
+	    	   }
+	    	   System.out.println(z);
 
             
 
 		   }
 	 
-	   */
+	   
 
 }
